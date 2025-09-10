@@ -7,11 +7,11 @@ import os
 from twilio.rest import Client
 
 # -------------------- Configuration --------------------
-TWILIO_ACCOUNT_SID = 'ACa502df151ae05f655d2795ed2f459a46'
-TWILIO_AUTH_TOKEN = '682bb417c59e73922f3db30e1ff2328d'
-TWILIO_PHONE_NUMBER = '++17752628578'
-ALERT_PHONE_NUMBER = '+917569568080'  # Change to your actual number
-SECURE_PASSCODE = 'admin123'  # Change to a secret
+TWILIO_ACCOUNT_SID = ''
+TWILIO_AUTH_TOKEN = ''
+TWILIO_PHONE_NUMBER = ''
+ALERT_PHONE_NUMBER = ''  # Change to your actual number
+SECURE_PASSCODE = ''  # Change to a secret
 
 ENCODINGS_FILE = "known_faces.pkl"
 
@@ -141,3 +141,4 @@ if mode == "Live Surveillance":
     live_surveillance()
 elif mode == "Register New Face":
     register_face()
+
